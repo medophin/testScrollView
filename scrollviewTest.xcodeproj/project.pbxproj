@@ -11,6 +11,8 @@
 		E722528C2809325A003DDB53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722528B2809325A003DDB53 /* ContentView.swift */; };
 		E722528E2809325B003DDB53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E722528D2809325B003DDB53 /* Assets.xcassets */; };
 		E72252912809325B003DDB53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E72252902809325B003DDB53 /* Preview Assets.xcassets */; };
+		E7225298280935F6003DDB53 /* HeaderIndicatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7225297280935F6003DDB53 /* HeaderIndicatorViewModel.swift */; };
+		E722529A280937FB003DDB53 /* ObservableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7225299280937FB003DDB53 /* ObservableScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		E722528B2809325A003DDB53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E722528D2809325B003DDB53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E72252902809325B003DDB53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E7225297280935F6003DDB53 /* HeaderIndicatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderIndicatorViewModel.swift; sourceTree = "<group>"; };
+		E7225299280937FB003DDB53 /* ObservableScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,12 @@
 		E72252882809325A003DDB53 /* scrollviewTest */ = {
 			isa = PBXGroup;
 			children = (
+				E7225299280937FB003DDB53 /* ObservableScrollView.swift */,
 				E72252892809325A003DDB53 /* scrollviewTestApp.swift */,
 				E722528B2809325A003DDB53 /* ContentView.swift */,
 				E722528D2809325B003DDB53 /* Assets.xcassets */,
 				E722528F2809325B003DDB53 /* Preview Content */,
+				E7225297280935F6003DDB53 /* HeaderIndicatorViewModel.swift */,
 			);
 			path = scrollviewTest;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E722529A280937FB003DDB53 /* ObservableScrollView.swift in Sources */,
 				E722528C2809325A003DDB53 /* ContentView.swift in Sources */,
 				E722528A2809325A003DDB53 /* scrollviewTestApp.swift in Sources */,
+				E7225298280935F6003DDB53 /* HeaderIndicatorViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
